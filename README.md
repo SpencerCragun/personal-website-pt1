@@ -1,1 +1,1 @@
-#New stuff yo
+I'm making a website for myself right now, so pardon my dust or whatever.
