@@ -120,16 +120,27 @@ nav a:hover{
 span{
   color: #02C39A;
   font-weight: 700;
+  padding: 15px;
+  text-align: start;
+
 }
+
 
 .projects{
+  margin: 5px;
   display: flex;
-  height: 250px;
-  width: 30%;
-  flex-wrap: wrap;
-  margin: 3px 45px;
-  flex-direction: column;
+  flex-direction: row;
 }
 
+.projects img{
+  width: 100%;
+  height: auto;
+}
+
+section span{
+  display: flex;
+  align-items: flex-start;
+
+}
 
 
