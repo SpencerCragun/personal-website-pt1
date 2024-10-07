@@ -14,7 +14,7 @@ li{
 }
 
 nav{
-  background-color: #02C39A;
+  background-color: #ED431D;
   box-shadow: 3px 3px 5px rgb(196, 196, 196);
   display: flex;
 }
@@ -79,12 +79,11 @@ nav a:hover{
 }
 
 .external-links li{
-  background-color:#02C39A;
-  border: 3px solid #02C39A;
+  background-color:#ED431D;
+  border: 3px solid #ED431D;
   border-radius: 40px;
   width: 85px;
   height: 30px;
-  
 }
 
 .external-links a{
@@ -100,12 +99,17 @@ nav a:hover{
 }
 
 span{
-  color: #02C39A;
+  color: #ED431D;
   font-weight: 700;
   text-align: start;
 
 }
 
+main .projects{
+  display: flex;
+  width: 100%;
+  height: auto;
+}
 
 .projects{
   margin: 5px;
@@ -115,19 +119,26 @@ span{
 }
 
 .projects img{
-  width: 33%;
+  width: 30%;
   height: auto;
+  display: flex;
 }
 
 .projects img span{
+  display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  
 }
 
 section span{
   display: flex;
   align-items: flex-start;
-
 }
 
+.about-main img{
+  width: 100%;
+  margin: 10px px;
+  object-fit: scale-down;
+}
 
